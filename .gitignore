@@ -99,8 +99,16 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 **/node_modules/*
+!**/node_modules/@openzeppelin/
+**/node_modules/@openzeppelin/*
+!**/node_modules/@openzeppelin/contracts/
+**/node_modules/@openzeppelin/contracts/*
+!**/node_modules/@openzeppelin/contracts/token/
+**/node_modules/@openzeppelin/contracts/token/*
+!**/node_modules/@openzeppelin/contracts/token/ERC1155/
+**/node_modules/@openzeppelin/contracts/token/ERC1155/*
+!**/node_modules/@openzeppelin/contracts/token/ERC1155/ERC1155.sol
 jspm_packages/
 test/
 
