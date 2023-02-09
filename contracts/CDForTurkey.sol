@@ -6,6 +6,7 @@ pragma solidity ^0.8.9;
 // @author: @devbhang - devbhang.eth
 // @author: @0xhazelrah - hazelrah.eth
 // @author: @berkozdemir - berk.eth
+// @author: @aertascom - aertas.eth
 
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -15,7 +16,7 @@ import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 
 contract CDForTurkey is ERC1155, Ownable, Pausable, ERC1155Supply {
     address public ahbapWallet = 0xe1935271D1993434A1a59fE08f24891Dc5F398Cd;
-    string public baseURI = "https://forturkey.art/metadata/";
+    string public baseURI = "https://for-turkey-website-yf4vo.ondigitalocean.app/metadata/";
 
     uint256 public price = 0.006 ether;
 
